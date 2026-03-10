@@ -7,4 +7,4 @@ COPY squid.conf /etc/squid/squid.config
 COPY passwd /etc/squid/passwd
 
 EXPOSE 3128
-CMD["squid", "N", "-d", "1"]
+CMD ["squid", "N", "-d", "1"]
